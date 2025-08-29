@@ -4,13 +4,23 @@
     box-sizing: border-box;
 }
 
-.bola {
+body {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola {
+    height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color: black;
+    border-radius: 50px;
+    width: 200px;
 }
 
 .bola1 {
@@ -18,6 +28,7 @@
     height: 150px;
     background-color: red;
     border-radius: 100%;
+    box-shadow: 0 0 20px white;
 }
 
 .bola2 {
@@ -25,6 +36,7 @@
     height: 150px;
     background-color: yellow;
     border-radius: 100%;
+    box-shadow: 0 0 20px white;
 }
 
 .bola3 {
@@ -32,4 +44,5 @@
     height: 150px;
     background-color: greenyellow;
     border-radius: 100%;
+    box-shadow: 0 0 20px white;
 }
